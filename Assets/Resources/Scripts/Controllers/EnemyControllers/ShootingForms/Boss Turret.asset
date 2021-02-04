@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5ca06a20b3dfba478829abac82622ca, type: 3}
+  m_Name: Boss Turret
+  m_EditorClassIdentifier: 
+  myShooter: {fileID: 0}
+  cooldown: 7
+  delays: 1
+  damage: 0.15
+  bullet: {fileID: 3915379059319561667, guid: 847e0da9aa1874f4fa18d02d148065af, type: 3}
+  rounds: 3
+  cannonVariations:
+  - {x: -1, y: 0, z: 0}
+  - {x: 0, y: 1, z: 0}
+  - {x: 1, y: 0, z: 0}
+  - {x: 0, y: -1, z: 0}
+  sound: {fileID: 8300000, guid: 3c83471325dac1c49ac5e6d489ee1f82, type: 3}
